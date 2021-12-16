@@ -15,9 +15,12 @@ hr {
 
 footer {
   clear: both;
-  position: relative;
   height: 200px;
-  margin-top: -200px;
+  margin-top: 10px;
+}
+
+.iframe {
+  align-items: center;
 }
 
 a:link,
@@ -42,6 +45,7 @@ a:active {
   border: 1px solid #ccc;
   float: left;
   width: 180px;
+  height: 175px;
 }
 
 .gallery:hover {
@@ -54,6 +58,6 @@ a:active {
 }
 
 .desc {
-  padding: 15px;
+  padding: 10px;
   text-align: center;
 }
